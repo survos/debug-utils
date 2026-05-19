@@ -1,0 +1,14 @@
+{
+    "name": "survos/debug-utils",
+    "description": "Development assertion helpers that show acceptable values on failure",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Survos\\DebugUtils\\": "src/"
+        }
+    }
+}
