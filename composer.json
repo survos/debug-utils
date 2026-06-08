@@ -1,14 +1,32 @@
 {
     "name": "survos/debug-utils",
-    "description": "Development assertion helpers that show acceptable values on failure",
     "type": "library",
+    "description": "Development assertion helpers that show acceptable values on failure",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Tac Tacelosky",
+            "email": "tacman@gmail.com"
+        }
+    ],
     "require": {
         "php": "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.0",
+        "phpstan/phpstan": "^2.0",
+        "symplify/easy-coding-standard": "^13.0"
     },
     "autoload": {
         "psr-4": {
             "Survos\\DebugUtils\\": "src/"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Survos\\DebugUtils\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
